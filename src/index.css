@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right top, #adecf6, #c1eefd, #d5f1ff, #e6f4ff, #f4f8ff, #f5f9ff, #f6fbff, #f8fcff, #effbfe, #e6fafa, #e1f8f2, #e0f6e6);
 }
 
 code {
@@ -12,21 +13,5 @@ code {
     monospace;
 }
 
-.header{
-  background-color: rgba(238, 138, 81, 0.411);
-  display: flex;
-  justify-content: space-between;
-}
 
-.cart .notif{
-  background-color: rgb(255, 0, 0);
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
-  text-align: center;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-}
+

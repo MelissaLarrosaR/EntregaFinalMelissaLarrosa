@@ -1,0 +1,73 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header .logo {
+  aspect-ratio: 1641/1046;
+  width: 100%;
+}
+
+.header .Categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+}
+
+.header .Categories .NavLink {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+.header .Categories .ActiveNavLink {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: rgb(118, 168, 53)
+}
+
+@media (max-width: 768px) {
+  .header .Categories .NavLink {
+    font-size: 30px;
+  }
+  .header .Categories .ActiveNavLink {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header .Categories .NavLink {
+    font-size: 20px;
+  }
+  .header .Categories .ActiveNavLink {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header .Categories .NavLink {
+    font-size: 18px;
+  }
+  .header .Categories .ActiveNavLink {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header .Categories .NavLink {
+    font-size: 16px;
+  }
+  .header .Categories .ActiveNavLink {
+    font-size: 18px;
+  }
+}
+

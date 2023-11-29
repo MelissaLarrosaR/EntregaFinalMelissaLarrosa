@@ -1,0 +1,15 @@
+.ItemListContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: rgb(118, 168, 53);
+    text-align: center;
+    
+}

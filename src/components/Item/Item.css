@@ -1,0 +1,66 @@
+/* Item.css */
+
+.CardItem {
+    width: 250px;
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.CardItem:hover {
+    transform: scale(1.1);
+}
+
+.CardItem .Header {
+    margin-bottom: 10px;
+}
+
+.CardItem .ItemHeader {
+    font-size: 18px;
+    color: #333;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+}
+
+
+.CardItem .ItemImg {
+    max-width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 5px;
+}
+
+.CardItem .Info {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.CardItem .itemFooter {
+    margin-top: 10px;
+}
+
+.CardItem .itemFooter .Option {
+    background-color: rgb(118, 168, 53);
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.CardItem .itemFooter .Option:hover {
+    background-color: rgb(134, 190, 60);
+}

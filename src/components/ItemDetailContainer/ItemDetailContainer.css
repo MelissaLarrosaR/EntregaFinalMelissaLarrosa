@@ -1,0 +1,9 @@
+.ItemDetailContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ItemDetailContainer .CardItem {
+    max-width: 600px; /* Ajusta según tus necesidades */
+}
