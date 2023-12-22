@@ -7,13 +7,18 @@
   font-size: 40px;
   font-weight: 700;
   font-family: "Roboto", sans-serif;
-  
+  text-decoration: none;
   
 }
 
 .cart .img-cart {
   aspect-ratio: 668/536;
   width: 40%;
+}
+
+.cart span {
+  text-decoration: none;
+  color: #4caf50;
 }
 
 

@@ -42,7 +42,7 @@
 }
 
 .AddToCart button {
-    background-color: #008cba;
+    background-color: #4caf50;
     color: #fff;
     font-size: 16px;
     border: none;
@@ -58,5 +58,5 @@
 }
 
 .AddToCart button:hover:enabled {
-    background-color: #007aa7;
+    background-color: #45a049;
 }

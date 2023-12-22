@@ -1,0 +1,39 @@
+.cartItemContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cartItemContainer:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.itemName {
+    font-size: 18px;
+    margin: 0;
+}
+
+.itemQuantity,
+.itemSubtotal {
+    font-size: 14px;
+    color: #555;
+}
+
+.removeButton {
+    padding: 8px 12px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.removeButton:hover {
+    background-color: #d9534f;
+}

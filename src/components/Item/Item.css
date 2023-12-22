@@ -15,7 +15,7 @@
 }
 
 .CardItem:hover {
-    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .CardItem .Header {
@@ -45,11 +45,11 @@
     color: #555;
 }
 
-.CardItem .itemFooter {
+.CardItem .ItemFooter {
     margin-top: 10px;
 }
 
-.CardItem .itemFooter .Option {
+.CardItem .ItemFooter .Option {
     background-color: rgb(118, 168, 53);
     color: #fff;
     font-size: 14px;
@@ -61,6 +61,6 @@
     text-decoration: none;
 }
 
-.CardItem .itemFooter .Option:hover {
+.CardItem .ItemFooter .Option:hover {
     background-color: rgb(134, 190, 60);
 }
