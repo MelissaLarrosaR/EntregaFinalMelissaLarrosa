@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.122fabca.css",
+    "main.js": "/static/js/main.8433db3c.js",
+    "static/media/piePagina.png": "/static/media/piePagina.aaffd33a886c3b66315b.png",
+    "static/media/logo.png": "/static/media/logo.fd452fbb7c04538658ab.png",
+    "static/media/cart.png": "/static/media/cart.8f859ea8b5a62a68ae3e.png",
+    "index.html": "/index.html",
+    "main.122fabca.css.map": "/static/css/main.122fabca.css.map",
+    "main.8433db3c.js.map": "/static/js/main.8433db3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.122fabca.css",
+    "static/js/main.8433db3c.js"
+  ]
+}
